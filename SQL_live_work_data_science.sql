@@ -102,7 +102,10 @@ GROUP BY department
 ORDER BY awards_won DESC
 
 -- Top 5 Highest perfroming Employee from Technology Department
-SELECT et.employee_id, et.department, ep.performancerating
+SELECT 
+	et.employee_id, 
+	et.department, 
+	ep.performancerating
 FROM employee_perf ep
 INNER JOIN employee_test et ON et.employee_id = ep.employee_id
 WHERE department = 'Technology'
