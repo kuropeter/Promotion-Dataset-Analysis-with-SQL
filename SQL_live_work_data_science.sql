@@ -1,3 +1,5 @@
+-- Exploratory Data Analysis
+
 -- 1. How many employees do we have in the organization and what is the
 -- maximum length of service?
 SELECT 
