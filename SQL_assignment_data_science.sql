@@ -1,3 +1,5 @@
+-- Tailored Data Analysis
+
 -- 1. What is the average training score of employees in each department
 SELECT 
 	department,
